@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        margin: 5px;
+
+}
+ul{
+    list-style: none;
+}
+#container{
+    width: 100%;
+    position: absolute;
+    height: 100vh;
+    margin-top: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    border: 1px solid gray;
+    
+}
+#nav-head1{    
+    margin-left: 50px;
+}
+#nav-head2{
+    height: 50px;
+    margin-top: -10px;
+    
+}
+#cliqimg{
+    height: 60px;
+}
+
+#nav-head3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    
+}
+.list-item{
+    padding: 10px;
+}
+#nav-head1{
+    font-weight:.5px;
+}
+#span1{
+    color: grey;
+    font-size: 20px;
+}
+/* ----nav2 */
+#tata-nav2{
+    display: flex;
+}
+.nav2ilst{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.list-item2{
+ padding: 10px;
+ font-size: 15px;
+ color: rgb(114, 111, 111);
+ 
+
+}
+.list-item2:hover{
+    color: red;
+    /* text-decoration: underline; */
+}
+/* section1 */
+#home{
+    width: 80%;
+    height: 500px;
+    margin-bottom: 50px;
+    /* border: 1px solid; */
+    border-radius: 30px;
+    margin: 10px 90% 3px 10%;
+    background-image: url("./images/homeimg.jpg");
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.discover-btn
+{
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid;
+    border-radius: 10px ;
+    font-weight: bold;
+    margin-left: 80% ;
+}
+/* section1 */
+
+/* section2 */
+#all-access{
+    margin-top: 50px;
+    /* width: 100%; */
+    margin: 2px;
+
+    
+}
+#accesshead{
+    font-size: 30px;
+    margin-left: 45%;
+    text-decoration: underline gray;
+    padding: 10px;
+    
+       
+}
+.accessitems{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+.acit{
+    height: 200px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;}
+
+
+
+
+/* section2 */
+/* section3 */
+#bankhead{
+    font-size: 30px;
+    margin-left: 40%;
+    padding: 50px;
+    font-size: 40px; 
+}
+.bank-content{
+    display: flex;
+    width: 40px;
+    height: 150px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+#bankimg{
+    width: 400px;
+    height: 100px;
+}
+#holiday{
+    width: 50%;
+    /* position: absolute; */
+    margin-left: -80px;
+}
+#holiday2{
+    margin-left: -10px;
+}
+
+/* section3 */
+
+/* section4 */
+#sub-head{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.bot{
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#botimg{
+    height: 120px;
+    width: 100%;
+    margin: -30px;
+}
+/* section4 */
+/* <!-- section5 --> */
+.brow{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 40px;
+    margin-right: 0;
+    margin-left: -50px;
+    width: 100%;
+}
+.brandd{
+    height: 100%;
+    width: 80%;
+    flex-wrap: wrap;
+} 
+
+
+
+
+/* <!-- section5 --> */
+
+/* <!-- section6 --> */
+#morebrands{
+    margin-top: 100px;
+}
+#morehead{
+    text-decoration: underline;
+    margin-top: 10px;
+}
+.morrow{
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin-top: 50px;
+    padding-right: 50px;
+    align-items: center;
+    width: 100%;
+    margin-right: 50px;
+    margin-right: 50px;
+}
+#moreidimg{
+    margin-left:80px;
+    margin-right: 10px;
+    height: 200px;
+    
+}
+
+/* <!-- section6 --> */
+/* <!-- section7        --> */
+#newin{
+    margin-top: 100px;
+}
+.newww{
+    height: 400px;
+    width: 400px;
+}
+#newinhead{
+    margin-bottom: 100px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.newin-content{
+    display: flex;
+    width: 70%;
+    justify-items: center;
+    margin-left: 100px;
+    padding: 0px;
+}
+.new1{
+    align-items: center;
+    
+}
+#newbtn{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 12px;
+    padding: 8px 30px;
+    border: 2px solid;
+}
+.shelf{
+    width: 50%;
+    /* height: 300px; */
+    
+}
+.shelf2{
+    display: flex;
+    margin-left: 110px;
+   
+}
+.shelfimg2{
+    margin-top: 40px;
+    height: 230px;
+    padding: 5px;
+    
+}
+
+
+/* <!-- section7        --> */
+
+/* <!-- section8 --> */
+#pd{
+    margin-top: 70px;
+}
+.pdimage2{
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+
+/* <!-- section8 --> */
+/* <!-- sect9 --> */
+#assist{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+.assist-content{
+    margin-top: -50px;
+}
+#foot{
+    background-color: rgb(32, 29, 29);
+    color: white;
+   
+}
+#submitlast{
+    background-color: rgb(20, 15, 15);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    
+}
+.foot1{
+    display: flex;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    /* margin-right: 200px;
+    margin-left: 150px; */
+}
+#lastpara{
+    font-size: 20px;
+}
+.footicimg{
+    /* margin-right: 150px; */
+    margin-left: 40px;
+   
+}
+.footmenu{
+    background-color: black;
+}
+.lastul{
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    
+}
+#hh{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+.footmenu{
+    display: flex;
+    padding: 50px 100px ;
+    margin-left: -20px;
+}
+#down{
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+#followus{
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+}
+.logo{
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* <!-- sect9 --> */
